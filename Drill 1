@@ -1,0 +1,62 @@
+mkdir hello
+cd hello
+mkdir five
+cd five
+mkdir six
+cd six
+touch c.txt
+mkdir seven
+cd seven
+touch error.log
+cd ..
+cd ~
+cd Desktop
+cd hello
+mkdir one
+cd one
+touch a.txt
+touch b.txt
+mkdir two
+cd two
+touch d.txt
+mkdir three
+cd three
+touch e.txt
+mkdir four
+cd four
+touch access.log
+
+
+
+# mkdir: mkdir command is use to make directory(folder)
+# cd : cd stands for change directory, this command use to change folder
+# touch : touch command is use to create empty file
+
+
+
+
+# Delete all the files having the .log extension
+rm *.log      # rm command is use to remove file
+
+
+
+
+# Add the following content to a.txt
+    # Unix is a family of multitasking, multiuser computer operating systems that derive from the original AT&T Unix, development
+nano a.txt ->  Unix is a family of multitasking, multiuser computer operating systems that derive from the original AT&T Unix, development
+# nano is a text editor
+
+
+
+
+# Delete the directory named five
+rm -rf five  # rm command is use to remove folder with content some files
+
+
+
+# Rename the one directory to uno
+ mv -T one uno  # mv command is also use to rename directory
+
+
+# Move a.txt to the two directory
+mv a.txt \two   # mv command is use to move file or folder to another location
